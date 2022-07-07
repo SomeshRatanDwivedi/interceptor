@@ -1,0 +1,89 @@
+.parent{
+    width: 100%;
+    background-color: #97999B;
+    height: 100vh;
+    display: flex;
+
+}
+
+.login-parent{
+    width: 380px;
+    margin: auto;
+    background-color: #FEFEFE;
+    padding: 20px;
+    border-radius: 4px;
+}
+.label{
+    color:#97999B ;
+    font-size: 12px;
+}
+.login-form{
+    width: 100%;
+}
+.input-box{
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #97999B;
+    margin-bottom: 10px;
+    margin-top: 2px;
+    height: 40px;
+    border-radius: 4px;
+}
+input:focus {
+    border: 2px solid #171C8F;
+  }
+.password{
+    margin-bottom: 12px;
+}
+
+.button-parent{
+    width: 100%;
+    text-align: center;
+}
+.submit-button{
+    width: 100%;
+    padding: 14px;
+    background-color: #1487d4;
+    border: 0;
+    color: white;
+    border-radius: 4px;
+}
+.show-button{
+    width: 30%;
+    padding: 14px;
+    background-color: #1487d4;
+    border: 0;
+    color: white;
+    border-radius: 4px;
+}
+.input-box.ng-invalid.ng-touched{
+   border: 1px solid red;
+   box-shadow: 0 0 13px inset rgba(255, 0, 0, 0.09);
+}
+.error-message{
+    font-size: 13px;
+    color: red;
+    margin-top: -5px;
+    margin-bottom: 10px;
+}
+.next-page-error{
+    font-size: 13px;
+    color: red;
+    width: 100%;
+    text-align: center;
+    margin-top: 5px;
+}
+.remember-me-parent{
+    margin-top: 10px;
+    width: 100%;
+}
+.remember-me-text{
+    color: #171C8F;
+    font-size: 13px;
+    position: relative;
+    bottom: 2px;
+    left: 5px;
+}
+.checkbox{
+    width: 15px;
+}
